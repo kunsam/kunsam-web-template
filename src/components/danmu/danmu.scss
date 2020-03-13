@@ -1,0 +1,17 @@
+.Danmu {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-top: 80px;
+  .Danmu-inner {
+    height: 100%;
+    position: relative;
+    .DanmuItem {
+      position: absolute;
+      font-size: 14px;
+      color: #fff;
+      white-space: nowrap;
+      word-break: keep-all;
+    }
+  }
+}
